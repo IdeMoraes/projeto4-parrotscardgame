@@ -1,0 +1,11 @@
+body{background-color: #EEF9BF;}
+header{display: flex;justify-content: center;align-items: center;}
+header div{width: 540px;height: 63px;margin-top:40px;display: flex;justify-content: center;align-items: center;}
+header h1 {font-family: 'Roboto', sans-serif;font-size: 56px;color: #75B79E;}
+.maincontainer{position: relative;width: 117px;height: 146px;margin-right: 34px;margin-bottom: 34px;}
+.thecard{position: absolute;width: 100%;height: 100%;transform-style: preserve-3d;transition: all 0.5s ease;}
+.thecardselecionado{transform: rotateY(180deg)}
+.thefront{position: absolute;width: 100%;height: 100%;backface-visibility: hidden;background-color: #A7E9AF;display: flex;justify-content: center;align-items: center;}
+.theback{position: absolute;width: 100%;height: 100%;backface-visibility: hidden;transform: rotateY(180deg);background-color: #A7E9AF;display:flex;justify-content: center;align-items: center;}
+img{width: 100px;height: 100px;}
+main{display: flex;flex-wrap: wrap; margin-top: 47px;margin-left: 122px;margin-right: 122px; justify-content: center;}
